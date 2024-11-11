@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #ffeb3b;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffeb3b;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #555;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .button-primary {
+    background-color: #ff6b6b;
+  }
+  
+  .button:hover {
+    background-color: #777;
+  }
+  
+  .button-primary:hover {
+    background-color: #e63946;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .featured-products {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .featured-products h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about {
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto;
+  }
+  
