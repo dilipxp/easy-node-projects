@@ -8,8 +8,8 @@ const rootDir = require('../../utils/path');
 
 
 // home page for Shopy.
-route.use((req, res, next)=>{
-    res.sendFile(path.join(rootDir,'public', 'index.html'));
+route.get('/signin',(req, res, next)=>{
+    res.sendFile(path.join(rootDir,'views', 'signin.html'));
 });
 
 
